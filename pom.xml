@@ -97,6 +97,13 @@
                     </execution>
                 </executions>
             </plugin>
+            
+<!-- https://mvnrepository.com/artifact/org.jacoco/jacoco-maven-plugin -->
+<dependency>
+    <groupId>org.jacoco</groupId>
+    <artifactId>jacoco-maven-plugin</artifactId>
+    <version>0.8.4</version>
+</dependency>
 
             <plugin>
                 <artifactId>maven-release-plugin</artifactId>
